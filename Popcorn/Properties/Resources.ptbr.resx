@@ -1,0 +1,345 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="ActorsLabel" xml:space="preserve">
+    <value>Atores</value>
+  </data>
+  <data name="BufferingLabel" xml:space="preserve">
+    <value>Carregando</value>
+  </data>
+  <data name="CancelButton" xml:space="preserve">
+    <value>Cancelar</value>
+  </data>
+  <data name="ConnectionErrorDescriptionPopup" xml:space="preserve">
+    <value>Parece ter um problema com sua conexão a internet. Por favor tente novamente.</value>
+  </data>
+  <data name="ConnectionErrorTitlePopup" xml:space="preserve">
+    <value>Erro de conexão</value>
+  </data>
+  <data name="CurrentlyPlayingLabel" xml:space="preserve">
+    <value>Atualmente assistindo</value>
+  </data>
+  <data name="DirectorsLabel" xml:space="preserve">
+    <value>Diretores</value>
+  </data>
+  <data name="DownloadLimitLabel" xml:space="preserve">
+    <value>Limitar Download (kB/s)</value>
+  </data>
+  <data name="EmptyMovieSearchLabel" xml:space="preserve">
+    <value>Nenhum filme encontrado</value>
+  </data>
+  <data name="GreatestTitleTab" xml:space="preserve">
+    <value>Avaliações</value>
+  </data>
+  <data name="LanguageLabel" xml:space="preserve">
+    <value>Idioma</value>
+  </data>
+  <data name="LoadingTrailerLabel" xml:space="preserve">
+    <value>Carregando trailer...</value>
+  </data>
+  <data name="PlayingTitleTab" xml:space="preserve">
+    <value>Reproduzindo</value>
+  </data>
+  <data name="PlayLabel" xml:space="preserve">
+    <value>Play</value>
+  </data>
+  <data name="PopularTitleTab" xml:space="preserve">
+    <value>Popular</value>
+  </data>
+  <data name="RecentTitleTab" xml:space="preserve">
+    <value>Recentes</value>
+  </data>
+  <data name="ReloadLabel" xml:space="preserve">
+    <value>Atualizar</value>
+  </data>
+  <data name="SaveButton" xml:space="preserve">
+    <value>Salvar</value>
+  </data>
+  <data name="SearchBoxWatermark" xml:space="preserve">
+    <value>Pesquisar...</value>
+  </data>
+  <data name="SearchTitleTab" xml:space="preserve">
+    <value>Pesquisar</value>
+  </data>
+  <data name="SettingsMenuTitle" xml:space="preserve">
+    <value>Configurações</value>
+  </data>
+  <data name="TrailerButton" xml:space="preserve">
+    <value>Trailer</value>
+  </data>
+  <data name="UploadLimitLabel" xml:space="preserve">
+    <value>Limitar Upload (kB/s)</value>
+  </data>
+  <data name="WatchButton" xml:space="preserve">
+    <value>Assistir</value>
+  </data>
+  <data name="SubtitlesLabel" xml:space="preserve">
+    <value>Legendas</value>
+  </data>
+  <data name="MovieQualityLabel" xml:space="preserve">
+    <value>Qualidade</value>
+  </data>
+  <data name="MovieSettingsLabel" xml:space="preserve">
+    <value>Configurações</value>
+  </data>
+  <data name="OffLabel" xml:space="preserve">
+    <value>Off</value>
+  </data>
+  <data name="OnLabel" xml:space="preserve">
+    <value>On</value>
+  </data>
+  <data name="DownloadingSubtitlesLabel" xml:space="preserve">
+    <value>Baixando legendas...</value>
+  </data>
+  <data name="MoviesLabel" xml:space="preserve">
+    <value>Filmes</value>
+  </data>
+  <data name="LoginLabel" xml:space="preserve">
+    <value>Login</value>
+  </data>
+  <data name="EmbarrassingError" xml:space="preserve">
+    <value>Isso é embaraçoso...</value>
+  </data>
+  <data name="OfWord" xml:space="preserve">
+    <value>de</value>
+  </data>
+  <data name="TrailerNotAvailable" xml:space="preserve">
+    <value>O trailer não está disponível para o idioma atual.</value>
+  </data>
+  <data name="MoviesWord" xml:space="preserve">
+    <value>filmes</value>
+  </data>
+  <data name="CollectionsLabel" xml:space="preserve">
+    <value>Coleções</value>
+  </data>
+  <data name="FavoritesTitleTab" xml:space="preserve">
+    <value>Favoritos</value>
+  </data>
+  <data name="SeenTitleTab" xml:space="preserve">
+    <value>Assistido</value>
+  </data>
+  <data name="NewUpdateDescriptionLabel" xml:space="preserve">
+    <value>Uma nova atualização foi instalada. Deseja reiniciar agora?</value>
+  </data>
+  <data name="NewUpdateLabel" xml:space="preserve">
+    <value>Nova Atualização</value>
+  </data>
+  <data name="PasswordWatermark" xml:space="preserve">
+    <value>Senha...</value>
+  </data>
+  <data name="UsernameWatermark" xml:space="preserve">
+    <value>Nome de usuário...</value>
+  </data>
+  <data name="ConfirmPasswordWatermark" xml:space="preserve">
+    <value>Confirme a senha...</value>
+  </data>
+  <data name="EmailWatermark" xml:space="preserve">
+    <value>Email...</value>
+  </data>
+  <data name="FirstNameWatermark" xml:space="preserve">
+    <value>Nome...</value>
+  </data>
+  <data name="LastNameWatermark" xml:space="preserve">
+    <value>Sobrenome...</value>
+  </data>
+  <data name="LaterLabel" xml:space="preserve">
+    <value>Label</value>
+  </data>
+  <data name="NowLabel" xml:space="preserve">
+    <value>Now</value>
+  </data>
+  <data name="UpdateReleasesInformationsLabel" xml:space="preserve">
+    <value>Informações:</value>
+  </data>
+  <data name="GenresLabel" xml:space="preserve">
+    <value>Gênero</value>
+  </data>
+  <data name="AllLabel" xml:space="preserve">
+    <value>Tudo</value>
+  </data>
+  <data name="RatingLabel" xml:space="preserve">
+    <value>Popularidade</value>
+  </data>
+  <data name="FatalError" xml:space="preserve">
+    <value>Ocorreu um erro crítico. Você deve reiniciar o aplicativo imediatamente.</value>
+  </data>
+  <data name="AnimesLabel" xml:space="preserve">
+    <value>Animes</value>
+  </data>
+  <data name="ShowsLabel" xml:space="preserve">
+    <value>Séries</value>
+  </data>
+  <data name="NoneLabel" xml:space="preserve">
+    <value>None</value>
+  </data>
+  <data name="SimilarLabel" xml:space="preserve">
+    <value>Títulos que talvez goste</value>
+  </data>
+  <data name="PeersLabel" xml:space="preserve">
+    <value>Peers</value>
+  </data>
+  <data name="SeedersLabel" xml:space="preserve">
+    <value>Seeders</value>
+  </data>
+  <data name="PopularShowTitleTab" xml:space="preserve">
+    <value>Popular</value>
+  </data>
+  <data name="EmptyShowSearchLabel" xml:space="preserve">
+    <value>Nenhuma Série encontrada</value>
+  </data>
+  <data name="ShowsWord" xml:space="preserve">
+    <value>série</value>
+  </data>
+  <data name="NoSimilarLabel" xml:space="preserve">
+    <value>Nenhum filme similar encontrado</value>
+  </data>
+  <data name="AverageLabel" xml:space="preserve">
+    <value>Mediano</value>
+  </data>
+  <data name="BadLabel" xml:space="preserve">
+    <value>Ruim</value>
+  </data>
+  <data name="GoodLabel" xml:space="preserve">
+    <value>Bom</value>
+  </data>
+  <data name="HealthLabel" xml:space="preserve">
+    <value>Saúde</value>
+  </data>
+  <data name="UnknownLabel" xml:space="preserve">
+    <value>Desconhecido</value>
+  </data>
+  <data name="VeryBadLabel" xml:space="preserve">
+    <value>Muito ruim</value>
+  </data>
+  <data name="VeryGoodLabel" xml:space="preserve">
+    <value>Muito bom</value>
+  </data>
+  <data name="CustomLabel" xml:space="preserve">
+    <value>Personalizada</value>
+  </data>
+  <data name="DownloadLabel" xml:space="preserve">
+    <value>Download</value>
+  </data>
+  <data name="UploadLabel" xml:space="preserve">
+    <value>Upload</value>
+  </data>
+  <data name="Speed" xml:space="preserve">
+    <value>(kB/s)</value>
+  </data>
+</root>
